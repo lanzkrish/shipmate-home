@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Poppins:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: 'Figtree', sans-serif;
+
+font-weight:600;
+}
+body{
+  display: center;
+  align-self: center;
+  justify-content: center;
+  padding-top: 10%;
+  min-height: 100vh;
+
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+
+
+}
+
+.logo{
+  width: 150px;
+  height: auto;
+}
+
+.navigation .btn-popup{
+display: flex;
+float:left;
+justify-content: center;
+padding: 12px 20px;
+gap: 9px;
+
+width: 140px;
+height: 40px;
+border-radius: 12.4444px;
+
+font-weight: 600;
+margin-left: 40px;
+
+transition: .5s;
+}
+
+#login{
+background: #6F57E9;
+color: rgb(255, 255, 255);
+border: 2px solid #6F57E9;
+}
+#login:hover {
+background: white;
+color: #000000;
+border: 2px solid #6F57E9;
+}
+
+#learn-more{
+background: white;
+color: #000000;
+border: 2px solid #6F57E9;
+}
+#learn-more:hover{
+  background: #6F57E9;
+  color: rgb(255, 255, 255);
+  border: 2px solid #6F57E9;
+  }
+
+
+.wrapper{
+  font-size: large;
+}
+
+
+a{
+
+  float:left;
+  padding: 20px 25px;
+  margin: 5px;
+  color: #523cc4;
+  box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+
+.input{
+
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-top: 50px;
+padding: 20px 10px;
+margin-top: 80px;
+margin-bottom: 5%;
+
+width: 75%;
+height:auto ;
+
+background: #FFFFFF;
+box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.inputbox{
+
+  position: relative;
+  width: 275px;
+  height:50px;
+  background: transparent;
+  border: none;
+  border-right : 2px solid #9a9999;
+  margin: 30px 9;
+}
+
+.input .icon{
+  
+}
+
+.bottom h1{
+  margin-bottom: 30px;
+  font-size: xx-large;
+}
+
+div.services{
+justify-content: center;
+align-items: center;
+float: left;
+margin-left:25px;
+margin-bottom: 25px;
+flex-direction: column;
+padding: 8px 20px;
+gap: 0px;
+
+width: 400px;
+height: 200px;
+
+background: #ffffff;
+box-shadow:  0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 1);
+border-radius: 16px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.cards{
+  margin-left: 20px;
+}
+
+
+h3{
+  padding:0%;
+  align-self: center;
+  font-size: x-large;
+}
+
+
+
+
+.services p {
+  content: '';
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background: #5a5454;
+  color: #5a5454;
+  align-self: center;
+}
+p{
+  margin-top: 10px;
+  font-size: large;
+}
+footer{
+  width: 100%;
+  margin-top: 0px;
+  position: relative;
+}
+
+.chat{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  padding: 0px;
+  position: relative;
+  z-index: 3;
+  top: 130px;
+  right: -10px;
+}
+#chatvector {
+  position: relative;
+  top: -7px;
+  right: 9px;
+}
+.vector img{
+  position: fixed;
+  width: 100%;
+}
+
+#vector1{
+  position: relative;
+  z-index: 2;
+  top: 110px;
+  height: fit-content;
+}
+#vector2{
+  position: relative;
+  z-index: 1;
+  bottom: 110px;
+}
+
+
+/*
+
+footer{
+  background: url(vector/Vector\ 1.png);
+  background-size:inherit ;
+  background-position:bottom ;
+}
