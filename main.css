@@ -132,6 +132,12 @@ flex-grow: 0;
   top: 2px;
 }
 
+.input button{
+  position: absolute;
+  border:none;
+  margin-left: 5px;
+}
+
 .bottom h1{
   margin-bottom: 30px;
   font-size: xx-large;
