@@ -104,7 +104,7 @@ padding: 20px 10px;
 margin-top: 80px;
 margin-bottom: 5%;
 
-width: 75%;
+width: 1300px;
 height:auto ;
 
 background: #FFFFFF;
@@ -120,15 +120,16 @@ flex-grow: 0;
 
   position: relative;
   width: 275px;
-  height:50px;
+  height:30px;
   background: transparent;
   border: none;
   border-right : 2px solid #9a9999;
-  margin: 30px 9;
+  margin: 35px 9;
 }
 
 .input .icon{
-  
+  position: relative;
+  top: 2px;
 }
 
 .bottom h1{
@@ -170,7 +171,11 @@ h3{
 }
 
 
+.services .icon{
+  position:absolute;
+  margin-left: 5px;
 
+}
 
 .services p {
   content: '';
