@@ -143,6 +143,7 @@ flex-grow: 0;
   font-size: xx-large;
 }
 
+
 div.services{
 justify-content: center;
 align-items: center;
@@ -177,13 +178,14 @@ h3{
 }
 
 
-.services .icon{
-  position:absolute;
-  margin-left: 5px;
+
+
+.services img{
+  margin-right: 10px;
 
 }
-
-.services p {
+*/
+hr {
   content: '';
   left: 0;
   bottom: -1px;
@@ -194,6 +196,7 @@ h3{
   color: #5a5454;
   align-self: center;
 }
+
 p{
   margin-top: 10px;
   font-size: large;
